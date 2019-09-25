@@ -1,3 +1,18 @@
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .section-hero {
     background: url(../images/hero.png) no-repeat;
     padding-top: 113px;
@@ -8,9 +23,12 @@ p {
     font-size: 21px;
 }
 .section-solutions {
-    padding-top: 80px;
-    padding-bottom: 148px;
+    /* padding-top: 80px;
+    padding-bottom: 148px; */
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
+
 @media (min-width: 576px) and (max-width: 768px) {
     .section-solutions {
         padding-top: 40px;
