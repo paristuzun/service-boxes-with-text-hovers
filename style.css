@@ -1,0 +1,75 @@
+.section-hero {
+    background: url(../images/hero.png) no-repeat;
+    padding-top: 113px;
+    padding-bottom: 176px;
+    background-position: bottom center;
+}
+p {
+    font-size: 21px;
+}
+.section-solutions {
+    padding-top: 80px;
+    padding-bottom: 148px;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .section-solutions {
+        padding-top: 40px;
+        padding-bottom: 95px;
+   }
+}
+.section-solutions .box-solutions {
+    -webkit-box-shadow: 0px 5px 32px 0px rgba(51, 51, 51, 0.1);
+    -moz-box-shadow: 0px 5px 32px 0px rgba(51, 51, 51, 0.1);
+    box-shadow: 0px 5px 32px 0px rgba(51, 51, 51, 0.1);
+    height: 350px;
+}
+.section-solutions .box-solutions img {
+    max-height: 110px;
+}
+.section-solutions .box-solutions p {
+    font-size: 18px;
+    min-height: 60px;
+}
+.section-solutions .box-solutions .box-hover {
+    display: none;
+}
+.section-solutions .box-solutions .box-hover h2 {
+    font-size: 18px;
+}
+.section-solutions .box-solutions .box-hover p {
+    font-size: 15px;
+    flex-grow: 1;
+}
+.section-solutions .box-solutions .box-hover .btn-primary {
+    width: 172px;
+}
+.section-solutions .box-solutions:hover {
+    cursor: pointer;
+}
+.section-solutions .box-solutions:hover .box-hover {
+    display: flex;
+    flex-direction: column;
+}
+.feature-box:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(../images/box-addon-bg.png) no-repeat;
+    background-position: top left;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.feature-box .single-box .box-content a {
+    transition: all, 0.4s, ease;
+}
+.feature-box .single-box .box-content a:hover {
+    text-decoration: none;
+    color: theme-color('primary-light');
+    transition: all, 0.4s, ease;
+}
+.feature-box .single-box p {
+    font-size: 16px;
+    font-family: 'Arial';
+}
