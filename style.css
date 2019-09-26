@@ -37,6 +37,18 @@ p {
     background-image: url("images/lunarxp-control-center.jpg");
 }
 
+.box-hover.lunarxp-launch-site {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('images/lunarxp-control-center.jpg');
+}
+
+.box-hover.lunarxp-control-center {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('images/space-station.jpg');
+}
+
+.box-hover.lunarxp-rocket-center {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('images/rocket.jpg');
+}
+
 .lunarxp-control-center {
     background-image: url("images/space-station.jpg");
 }
@@ -80,6 +92,10 @@ p.text-uppercase {
     background: rgba(0, 0, 0, 0.8);
     border-bottom: 1px solid rgba(0,0,0,.125);
 
+}
+
+.btn {
+    border-radius: 0;
 }
 
 .section-solutions .box-solutions .box-hover {
