@@ -16,17 +16,13 @@ body {
 p {
     font-size: 21px;
 }
-.section-solutions {
+.section-boxes {
     padding-top: 8%;
     padding-bottom: 8%;
 }
 
 .primary-text, .col-12 {
   color: #f1f1f1;
-}
-
-.col-12 p {
-    
 }
 
 .lunarxp-launch-site, .lunarxp-control-center, .lunarxp-rocket-center {
@@ -60,12 +56,12 @@ p {
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-    .section-solutions {
+    .section-boxes {
         padding-top: 40px;
         padding-bottom: 95px;
    }
 }
-.section-solutions .box-lunar, .bg-dark  {
+.section-boxes .box-lunar, .bg-dark  {
     -webkit-filter-shadow: 0px 5px 32px 0px rgba(51, 51, 51, 0.1);
     -moz-box-shadow: 0px 5px 32px 0px rgba(51, 51, 51, 0.1);
     box-shadow: 0px 5px 32px 0px rgba(51, 51, 51, 0.1);
@@ -75,10 +71,10 @@ p {
     position: relative;
 }
 
-.section-solutions .box-lunar img {
+.section-boxes .box-lunar img {
     max-height: 110px;
 }
-.section-solutions .box-lunar p {
+.section-boxes .box-lunar p {
     font-size: 18px;
     min-height: 60px;
 }
@@ -104,24 +100,24 @@ p.text-uppercase {
     border-radius: 0;
 }
 
-.section-solutions .box-lunar .box-hover {
+.section-boxes .box-lunar .box-hover {
     display: none;
 }
-.section-solutions .box-lunar .box-hover h2 {
+.section-boxes .box-lunar .box-hover h2 {
     font-size: 18px;
     font-family: 'Space Mono', monospace;
 }
-.section-solutions .box-lunar .box-hover p {
+.section-boxes .box-lunar .box-hover p {
     font-size: 15px;
     flex-grow: 1;
 }
-.section-solutions .box-lunar .box-hover .btn-primary {
+.section-boxes .box-lunar .box-hover .btn-primary {
     width: 172px;
 }
-.section-solutions .box-lunar:hover {
+.section-boxes .box-lunar:hover {
     cursor: pointer;
 }
-.section-solutions .box-lunar:hover .box-hover {
+.section-boxes .box-lunar:hover .box-hover {
     display: flex;
     flex-direction: column;
 }
